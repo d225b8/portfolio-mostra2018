@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="has-navbar-fixed-top">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="Ir01MJ03kMawzwQQmOdFSFrIUMqQ2YrEQdhcxlly">
+
+    <title>Mostra de Estágios UERJ</title>
+
+    <link href="../../../../css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <nav class="navbar is-fixed-top is-transparent navbar-bborder">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+            <img src="../../../../images/logo_menu-inverted.png" alt="Logo da Mostra de Estágios Uerj" >
+        </a>
+
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="#">Capa</a>
+            <a class="navbar-item" href="#">Palestras</a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Estandes</a>
+                <div class="navbar-dropdown">
+                    
+                                            <a class="navbar-item" href="../../../../conteudo/estande/ciee.html">CENTRO DE INTEGRAÇÃO EMPRESA ESCOLA</a>
+                                            <a class="navbar-item" href="../../../../conteudo/estande/cepuerj.html">CEPUERJ</a>
+                                            <a class="navbar-item" href="../../../../conteudo/estande/teste.html">EMPRESA TESTE ABC</a>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="navbar-end">
+
+            <div class="navbar-item">
+                <div class="field is-grouped">
+                    <p class="control">
+                        <a class="button is-default" href="#" title="Ajuda">
+                            <span class="icon">
+                                <i class="fas fa-question"></i>
+                            </span>
+                        </a>
+                    </p>
+                    <p class="control">
+                        <a class="button is-primary" href="#" title="Meu Espaço">
+                            <span class="icon">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container-interno">
+        <main class="container">
+            
+<section class="hero is-fullheight">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="column is-6 is-offset-3">
+                <h3 class="title has-text-grey">Editar Vaga</h3>
+                <p class="subtitle has-text-grey">Editando dados da vaga <strong>V7QJP2</strong></p>
+
+                <div class="box">
+                    <i class="fas fa-edit big-icon"></i>
+
+                    <form method="post" action="#">
+                        <input type="hidden" name="_token" value="Ir01MJ03kMawzwQQmOdFSFrIUMqQ2YrEQdhcxlly">
+                        <div class="field">
+                            <div class="control">
+                                <input
+                                name="titulo"
+                                type="text"
+                                class="input"
+                                placeholder="Título da vaga"
+                                title="Digite o título da vaga"
+                                value="Vitae facere vel eius qui voluptatibus eos sapiente alias."
+                                required>
+                            </div>
+                        </div>
+
+                        <div class="columns">
+                            <div class="column">
+                                <div class="field">
+                                    <div class="control">
+                                        <input
+                                        name="salario"
+                                        type="number"
+                                        class="input"
+                                        placeholder="Remuneração (somente números)"
+                                        title="Ex.: Se a remuneração for de R$ 1.153,50 digite: 115350"
+                                        value="367830">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="column is-4">
+                                <div class="field">
+                                    <div class="select is-fullwidth">
+                                        <select name="tipo" autofocus required>
+                                            <option value="TRAINEE" selected>Trainee</option>
+                                                                                        <option value="EMPREGO">Emprego</option>
+                                                                                        <option value="ESTAGIO">Estágio</option>
+                                                                                        <option value="FREELANCER">Freelancer</option>
+                                                                                        <option value="TRAINEE">Trainee</option>
+                                                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <div class="select is-fullwidth">
+                                <select name="area" autofocus required>
+                                    <option value="HISTORIA" selected>História</option>
+                                                                        <option value="ADMINISTRACAO">Administração</option>
+                                                                        <option value="ARQUEOLOGIA">Arqueologia</option>
+                                                                        <option value="ARQUITETURA_E_URBANISMO">Arquitetura e Urbanismo</option>
+                                                                        <option value="ARTES_VISUAIS">Artes Visuais</option>
+                                                                        <option value="TECNOLOGIA_INFORMACAO">Tecnologia da Informação (TI) / Informática</option>
+                                                                        <option value="CIENCIAS_ATUARIAIS">Ciências Atuariais</option>
+                                                                        <option value="CIENCIAS_BIOLOGICAS">Ciências Biológicas</option>
+                                                                        <option value="CIENCIAS_CONTABEIS">Ciências Contábeis</option>
+                                                                        <option value="CIENCIAS_ECONOMICAS">Ciências Econômicas</option>
+                                                                        <option value="CIENCIAS_SOCIAIS">Ciências Sociais</option>
+                                                                        <option value="DESIGN">Design</option>
+                                                                        <option value="DIREITO">Direito</option>
+                                                                        <option value="EDUCACAO_FISICA">Educação Física</option>
+                                                                        <option value="ENFERMAGEM">Enfermagem</option>
+                                                                        <option value="ENGENHARIAS">Engenharias</option>
+                                                                        <option value="ESTATISTICA">Estatística</option>
+                                                                        <option value="FISICA">Física</option>
+                                                                        <option value="GEOGRAFIA">Geografia</option>
+                                                                        <option value="GEOLOGIA">Geologia</option>
+                                                                        <option value="HISTORIA">História</option>
+                                                                        <option value="JORNALISMO">Jornalismo</option>
+                                                                        <option value="LETRAS">Letras</option>
+                                                                        <option value="MATEMATICA">Matemática</option>
+                                                                        <option value="MEDICINA">Medicina</option>
+                                                                        <option value="NUTRICAO">Nutrição</option>
+                                                                        <option value="OCEANOGRAFIA">Oceanografia</option>
+                                                                        <option value="ODONTOLOGIA">Odontologia</option>
+                                                                        <option value="PEDAGOGIA">Pedagogia</option>
+                                                                        <option value="PSICOLOGIA">Psicologia</option>
+                                                                        <option value="QUIMICA">Química</option>
+                                                                        <option value="RELACOES_INTERNACIONAIS">Relações Internacionais</option>
+                                                                        <option value="RELACOES_PUBLICAS">Relações Públicas</option>
+                                                                        <option value="SERVICO_SOCIAL">Serviço Social</option>
+                                                                        <option value="TURISMO">Turismo</option>
+                                                                        <option value="OUTRAS">Outras</option>
+                                                                    </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <label class="label">Descrição:</label>
+                                <textarea
+                                    id="editor-descricao-vaga"
+                                    name="descricao">Sit id iusto ex necessitatibus. Sed possimus et repellendus dolorem reprehenderit aut. Aspernatur enim sint non nisi repellat eum modi nisi. Id nobis eum qui eos nam et molestiae est. Dolorem vitae unde quae ipsam.</textarea>
+                            </div>
+                        </div>
+
+                        <hr>
+
+						<div class="columns is-mobile">
+                            <div class="column">
+                                <p class="control">
+                                    <a href="http://localhost:8000/conteudo/home" class="button is-link is-medium is-outlined is-info is-fullwidth" title="Voltar para painel"><i class="fas fa-chevron-left"></i></a>
+                                </p>
+                            </div>
+                            <div class="column is-2">
+                                <p class="control">
+                                    <a href="http://localhost:8000/empresa/estande/excluir/vaga/eyJpdiI6IlNYeGpOYnB1MlpFRmU1WHd5YU5uQ0E9PSIsInZhbHVlIjoiUVwvaFdpODVTdUhSdlN3S1ZUdW1tMkE9PSIsIm1hYyI6ImMyYmJiNWY5NThmZmE5ZDMxMTlkMDkxNjUwY2Q4OGE2NDc2Y2ViMDE2NmE2YmI1MTgzOTAwNTQ1MjlkYWQ5OWEifQ==" class="button is-danger is-medium is-fullwidth is-outlined" title="Excluir vaga! Não é possível desfazer esta ação."><i class="fas fa-trash-alt"></i></a>
+                                </p>
+                            </div>
+                            <div class="column is-8">
+                                <p class="control">
+                                    <button class="button is-primary is-medium is-fullwidth" type="submit">Salvar alterações</button>
+                                </p>
+                            </div>
+                        </div>
+
+                        <input type="hidden" name="vid" value="eyJpdiI6Im80V201VmRCbFwvMVk5eUtQMEtadnFnPT0iLCJ2YWx1ZSI6IkVXbldlTkRcLzBKWktrWm5nVUFNdnBBPT0iLCJtYWMiOiI0Y2VkOWYxNjEwOGJhNDRkZjUzN2EyNmQzZWY2MjAxMTczZjZjMTFjN2U5Mzk3NmUwNGU2Njg1ODg3ZDU2NmM1In0=">
+                    </form>
+                </div>
+
+                <br>
+
+                <p class="has-text-grey">
+					<a href="http://localhost:8000" title="Página inicial">Início</a>
+                    <i class="far fa-question-circle"></i>
+					<a href="http://localhost:8000/suporte" title="Fazer login">Dúvidas</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+        </main>
+    </div>
+
+    <footer class="footer is-paddingless has-text-centered has-text-white footer-interno">
+    <br>
+
+    <figure class="has-image-centered">
+        <img src="../../../../images/logo_branco.png" alt="Logo da Mostra de Estágios Uerj" width="140" class="is-marginless">
+    </figure>
+
+    <div class="links-redes-sociais">
+        <span class="icon is-medium">
+            <a href="https://www.fb.me/mostraestagiosuerj" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        </span>
+        <span class="icon is-medium">
+            <a href="https://www.instagram.com/cetreina/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        </span>
+    </div>
+
+    <br>
+
+    <h4>® 2019 Universidade do Estado do Rio de Janeiro - Todos os direitos reservados</h4>
+
+    <br>
+
+</footer>
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/11.0.1/classic/ckeditor.js"></script>
+    <script>
+        ClassicEditor.create(document.querySelector('#editor-descricao-vaga'), {
+            toolbar: ['bold', 'italic', 'link', '|', 'undo', 'redo']
+        }).catch( error => {
+            console.error( error );
+        } );
+    </script>
+</body>
+</html>
